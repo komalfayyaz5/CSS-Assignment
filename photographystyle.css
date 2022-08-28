@@ -1,0 +1,294 @@
+
+/*STYLESHEET HOME PAGE*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url('/fonts/Roboto-Regular.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Roboto-LightItalic';
+  src: url('/fonts/Roboto-LightItalic.ttf') format('truetype');
+  font-weight: lighter;
+}
+
+body {
+  font-family: 'Roboto-Regular',sans-serif;
+}
+
+
+/* Header*/
+
+header {
+  height: 100px;
+  background-color: #1F2937;
+  color:#F9FAF8;
+  font-weight: bold;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-bottom: 0px;
+  padding: 25px 80px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #E5E7EB;
+  font-weight: 300;
+  font-size: 18px;
+  padding: 0 0px 0px 10px;
+}
+
+.logo img{
+  width: 70px;
+  height: auto;
+  margin: 5px 10px;
+  border-radius: 50%;
+}
+
+/* Section 1*/
+
+section.content-first {
+  display: flex;
+  justify-content: space-around;
+  background-color: #1F2937;
+  margin-top: 0px;
+  padding: 20px 80px 30px;
+  align-content: center;
+}
+
+div.text-left {
+  width: 60%;
+}
+
+div.text-left h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #F9FAF8;
+}
+
+div.text-left p {
+  color: #cdcfd4;
+  font-size: 18px;
+  text-align: justify;
+}
+
+div.text-left button {
+  color:#E5E7EB;
+  background-color: #3882F6;
+  padding: 5px 18px;
+  border-radius: 8px;
+  font-weight: 700;
+}
+
+.img-right img {
+  width: 85%;
+  margin: 3px 80px 4px;
+  border-radius: 3%;
+}
+
+div.img-right {
+  width: 50%;
+  margin: 2px 10px;
+}
+
+
+/*Section 2*/
+
+.content-sec-img {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  margin: 0px 200px 0px;
+}
+
+figure img {
+  width: 200px;
+  margin: 12px;
+  height: 200px;
+  border-radius: 10%;
+  object-fit:cover;
+  border: 3px solid #3882F6;
+}
+
+section > h2 {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight:600;
+  margin: 25px;
+  text-align: center;
+}
+
+figcaption {
+  color: #1F2937;
+  font-size: 12px;
+  font-weight: 700;
+ }
+
+
+/* Section 3*/
+
+section.content-third {
+  display: flex;
+  justify-content: center;
+  background-color: #E5E7EB;
+  padding: 80px;
+  margin: 60px 20px;
+  border-radius: 0%;
+}
+
+.quote {
+  font-family:'Roboto-LightItalic',sans-serif;
+  font-size: 36px;
+  color: #1F2937;
+}
+
+blockquote.quote {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+blockquote.quote span {
+  color: #1F2937;
+  font-size: 10px;
+  font-weight:normal;
+  text-align:end;
+}
+
+
+/* Section 4*/
+
+section.content-fourth {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 30px;
+  background-color: #3882F6;
+  align-items: center;
+  margin: 30px 270px;
+  height: 120px;
+  border-radius: 10px;
+}
+
+.call-action > p {
+  color:#E5E7EB;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+div.call-action span {
+  font-size: 12px;
+  color:#E5E7EB;
+}
+
+button {
+  color:#E5E7EB;
+  padding: 5px 10px;
+  margin-top: 18px;
+  border-radius: 8px;
+  font-weight: 700;
+  border: 1px solid #E5E7EB ;
+  background-color: #3882F6;
+
+}
+
+
+/*Footer*/
+
+footer {
+  display: flex;
+  background-color: #1F2937;
+  justify-content: center;
+  padding: 30px 40px;
+  margin-top: 150px;
+}
+
+footer p {
+  color:#F9FAF8;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.addSymbol::after {
+  content: '&copy';
+  color: #E5E7EB;
+}
+
+
+/*ABOUT PAGE*/
+
+.about-content {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0px;
+  padding: 20px 80px 30px;
+  align-content: center;
+}
+
+
+div.about-left {
+  width: 60%;
+}
+
+div.about-left h1{
+  font-size: 48px;
+  font-weight: 700;
+  color: #1F2937;
+}
+
+div.about-left h2{
+  font-size: 48px;
+  font-weight: 700;
+  color: #3882F6;
+}
+
+div.about-left p {
+  color: #1F2937;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.about-img img {
+  width: 85%;
+  margin: 3px 80px 4px;
+  border: 3px solid #3882F6;
+  border-radius: 3%;
+}
+
+div.about-img {
+  width: 50%;
+  margin: 2px 10px;
+}
+
+/*PORTFOLIO PAGE*/
+
+.align-center {
+  margin-top: 2%;
+  text-align: center;
+  font-weight: 600;
+  color: #3882F6;
+  margin-bottom: 2%;
+}
+
+.layout-img {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  margin: 0px 200px 0px;
+}
+
+/*END*/
